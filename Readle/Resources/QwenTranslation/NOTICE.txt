@@ -1,0 +1,7 @@
+Qwen3.5-0.8B by the Qwen Team.
+Original model: https://huggingface.co/Qwen/Qwen3.5-0.8B
+4-bit MLX conversion: https://huggingface.co/mlx-community/Qwen3.5-0.8B-4bit
+Checkpoint revision: da28692b5f139cb0ec58a356b437486b7dac7462
+Readle removed the vision tensors and pruned the vocabulary, byte-pair merges,
+and tied embedding rows for Chinese–English translation.
+Distributed under the Apache License, Version 2.0. See LICENSE.txt.

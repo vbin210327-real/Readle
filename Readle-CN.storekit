@@ -1,0 +1,102 @@
+{
+  "identifier": "a77fba17-4c68-441b-840b-26214bba02d7",
+  "products": [
+    {
+      "displayPrice": "198",
+      "familyShareable": false,
+      "internalID": "6016a7b9-884f-5fb9-bb91-0de4f9d2aff3",
+      "referenceName": "Readle lifetime",
+      "productID": "com.linfanbin.readle.pro.lifetime",
+      "localizations": [
+        {
+          "locale": "zh_Hans",
+          "displayName": "终身高级版",
+          "description": "解锁全部高级版功能"
+        },
+        {
+          "locale": "en_US",
+          "displayName": "Readle Pro lifetime",
+          "description": "Unlock all Readle Pro features"
+        }
+      ],
+      "type": "NonConsumable"
+    }
+  ],
+  "nonRenewingSubscriptions": [],
+  "subscriptionGroups": [
+    {
+      "id": "165a0f66-8224-4296-ab46-c82b60854645",
+      "name": "Readle Pro",
+      "localizations": [],
+      "subscriptions": [
+        {
+          "displayPrice": "18",
+          "familyShareable": false,
+          "internalID": "ee5310cc-e5ef-5d8a-a441-f0eb42d4fddd",
+          "referenceName": "Readle monthly",
+          "productID": "com.linfanbin.readle.pro.monthly",
+          "localizations": [
+            {
+              "locale": "zh_Hans",
+              "displayName": "月度高级版",
+              "description": "解锁全部高级版功能"
+            },
+            {
+              "locale": "en_US",
+              "displayName": "Readle Pro monthly",
+              "description": "Unlock all Readle Pro features"
+            }
+          ],
+          "type": "RecurringSubscription",
+          "recurringSubscriptionPeriod": "P1M",
+          "subscriptionGroupID": "165a0f66-8224-4296-ab46-c82b60854645",
+          "groupNumber": 1,
+          "adHocOffers": [],
+          "codeOffers": [],
+          "winbackOffers": []
+        },
+        {
+          "displayPrice": "98",
+          "familyShareable": false,
+          "internalID": "4122464e-6893-5787-9ecc-a48f9497b71d",
+          "referenceName": "Readle yearly",
+          "productID": "com.linfanbin.readle.pro.yearly",
+          "localizations": [
+            {
+              "locale": "zh_Hans",
+              "displayName": "年度高级版",
+              "description": "解锁全部高级版功能"
+            },
+            {
+              "locale": "en_US",
+              "displayName": "Readle Pro yearly",
+              "description": "Unlock all Readle Pro features"
+            }
+          ],
+          "type": "RecurringSubscription",
+          "recurringSubscriptionPeriod": "P1Y",
+          "subscriptionGroupID": "165a0f66-8224-4296-ab46-c82b60854645",
+          "groupNumber": 1,
+          "adHocOffers": [],
+          "codeOffers": [],
+          "winbackOffers": [],
+          "introductoryOffer": {
+            "displayPrice": "0",
+            "internalID": "ad23bcf1-66ee-4ce2-8a6f-39dfbdbf9eb7",
+            "paymentMode": "free",
+            "subscriptionPeriod": "P3D",
+            "numberOfPeriods": 1
+          }
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "_locale": "zh_Hans",
+    "_storefront": "CHN"
+  },
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
+}

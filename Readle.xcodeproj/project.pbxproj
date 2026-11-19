@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09480201891116653B686B6A /* Readle/Vendor/libmobi/compression.c in Sources */ = {isa = PBXBuildFile; fileRef = C189F940365CEA284835B947 /* Readle/Vendor/libmobi/compression.c */; };
+		0DAE492993C2810656FDE591 /* Readle/Resources/PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7A5ABC977D0E2944CF4AABC3 /* Readle/Resources/PrivacyInfo.xcprivacy */; };
+		123349864A923194A3E8B6AC /* Readle/Core/BookRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A2F7B530E9017D018E9E6 /* Readle/Core/BookRepository.swift */; };
+		1704147B407E1F1178535898 /* ReadleShare.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B70E82C9B4279D28D79FB8E5 /* ReadleShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1A56DFCACC47C167FB8760D1 /* Readle/ReadleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8395603E0F78ACBB8C86E79 /* Readle/ReadleApp.swift */; };
+		1BD0D41847324EABBD5A475D /* Readle/Core/TranslationAllowance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9CA98599AF4270B48E7281 /* Readle/Core/TranslationAllowance.swift */; };
+		291A58267E5664BD6647B660 /* Readle/Core/ReadAloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7F0A361F09CDB4B74E28C /* Readle/Core/ReadAloud.swift */; };
+		3AF75CF6ECD880DF70F1AF18 /* Readle/Core/SharedImportInbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F624719A468D93E729C61643 /* Readle/Core/SharedImportInbox.swift */; };
+		3D0E7CEDCA9EE63F33B3A547 /* Readle/Core/MOBIBridge.c in Sources */ = {isa = PBXBuildFile; fileRef = F6F62FAAB79A62A0ACD60059 /* Readle/Core/MOBIBridge.c */; };
+		3F4A13A587D1E22EF76A235F /* Readle/Vendor/libmobi/write.c in Sources */ = {isa = PBXBuildFile; fileRef = 437CF36F8C7D6822A2580AF0 /* Readle/Vendor/libmobi/write.c */; };
+		40049E5B67B085F70942AA0D /* Readle/Core/TranslationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED67C1A23A66E94EE251964 /* Readle/Core/TranslationService.swift */; };
+		43DAFCB085458324818521F2 /* Readle/Core/MOBIImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FE37D12B8B3DA004D89A64 /* Readle/Core/MOBIImporter.swift */; };
+		441BE0495D5DF14C1C120247 /* Tests/ReadleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2892971A84122A94A9791B /* Tests/ReadleUITests.swift */; };
+		4986E3A03569D4819137AAF4 /* Readle/Resources/PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7A5ABC977D0E2944CF4AABC3 /* Readle/Resources/PrivacyInfo.xcprivacy */; };
+		5F9199B3FE04B3F4439B01F4 /* Readle/Views/ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC96137E5D768A0D690AB14E /* Readle/Views/ReaderView.swift */; };
+		648E9DE8389DDA3F7FE6C408 /* Readle/Vendor/libmobi/debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 57FAE944672EAD414E13ACC7 /* Readle/Vendor/libmobi/debug.c */; };
+		6B5A06DE844D329B3E099EA1 /* Readle/Views/LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28AB0AB8E8FB98D69E8DF2 /* Readle/Views/LibraryView.swift */; };
+		6D4DF20BF9CB5DE27B15EABA /* Readle/Vendor/libmobi/buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B836F5BCCDDB0D2452A509C /* Readle/Vendor/libmobi/buffer.c */; };
+		6F2A4E3B0C8D5F7A9B1C2D3E /* Readle/Views/Shelf3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1F3D2A9B7C4E6F8A0B1C2D /* Readle/Views/Shelf3DView.swift */; };
+		734D3BB485C609EBEA131EFE /* Readle/Core/BookImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A752BABED0BE4DD268E0DB /* Readle/Core/BookImporter.swift */; };
+		7435EFF2C3777679C2280923 /* ReadleSpeechRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = B755CD4E951288120F882562 /* ReadleSpeechRuntime */; };
+		7C3AE566D4329B9DC3C84781 /* Readle/Core/SharedImportInbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F624719A468D93E729C61643 /* Readle/Core/SharedImportInbox.swift */; };
+		7E1EBC40901F41C2B88F1F29 /* Readle/Core/Membership.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CD9C4659204D1F9ABD8B6A /* Readle/Core/Membership.swift */; };
+		7F5CC78B94C1C3CD22C453C3 /* Readle/Core/LibraryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE547FB48B2937C67BDC8D0 /* Readle/Core/LibraryStore.swift */; };
+		81AD82154B362FD4BA6D2F1C /* Readle/Resources/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32950099A24F6E46125E26B /* Readle/Resources/Assets.xcassets */; };
+		840FD1CFC8988A727944C410 /* Readle/Vendor/libmobi/util.c in Sources */ = {isa = PBXBuildFile; fileRef = 25D032672E79325F0637C8D4 /* Readle/Vendor/libmobi/util.c */; };
+		8B4D6F203C5E7B9D1F204B6C /* Readle/Views/BookEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3C5E1F2B4D6A8C0E1F3A5B /* Readle/Views/BookEntrance.swift */; };
+		90987B04F7489888A0526101 /* Readle/Resources/SpeechNotices.txt in Resources */ = {isa = PBXBuildFile; fileRef = EC206909CC5779E69E77E742 /* Readle/Resources/SpeechNotices.txt */; };
+		91E9A5C5203019DBE7082260 /* Readle/Vendor/libmobi/memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A2226A5819833D5A1E859CB /* Readle/Vendor/libmobi/memory.c */; };
+		97D64BC1F19357340C97FF97 /* Readle/Views/ReaderScrollObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6F84E02525BF71249F445F /* Readle/Views/ReaderScrollObserver.swift */; };
+		998487A36A56A793146ED72B /* Readle/Core/ZIPArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904E35E381443E9B7ABC5BD /* Readle/Core/ZIPArchive.swift */; };
+		A7E1C0DE5EED0000000000A2 /* Readle/Resources/KokoroHeart in Resources */ = {isa = PBXBuildFile; fileRef = A7E1C0DE5EED0000000000A1 /* Readle/Resources/KokoroHeart */; };
+		A7E1C0DE5EED0000000000B6 /* MLXLLM in Frameworks */ = {isa = PBXBuildFile; productRef = A7E1C0DE5EED0000000000B3 /* MLXLLM */; };
+		A7E1C0DE5EED0000000000B7 /* MLXLMCommon in Frameworks */ = {isa = PBXBuildFile; productRef = A7E1C0DE5EED0000000000B4 /* MLXLMCommon */; };
+		A7E1C0DE5EED0000000000B8 /* Tokenizers in Frameworks */ = {isa = PBXBuildFile; productRef = A7E1C0DE5EED0000000000B5 /* Tokenizers */; };
+		A7E1C0DE5EED0000000000BA /* Readle/Resources/QwenTranslation in Resources */ = {isa = PBXBuildFile; fileRef = A7E1C0DE5EED0000000000B9 /* Readle/Resources/QwenTranslation */; };
+		A7E1C0DE5EED0000000001B1 /* Readle/Views/AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E1C0DE5EED0000000001A1 /* Readle/Views/AccountView.swift */; };
+		A7E1C0DE5EED0000000001B2 /* Readle/Core/ReadingStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E1C0DE5EED0000000001A2 /* Readle/Core/ReadingStats.swift */; };
+		B40BDAA83812CA2591EA4999 /* Readle/Vendor/libmobi/meta.c in Sources */ = {isa = PBXBuildFile; fileRef = CD11B9154FC498D1EAD93689 /* Readle/Vendor/libmobi/meta.c */; };
+		BCBACCC51111000000000001 /* Readle-CN.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 98DCF36E21F8480288910123 /* Readle-CN.storekit */; };
+		C0020AD5DC172E92F2AF7172 /* Readle/Core/Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08208AA945C326263A80CA0 /* Readle/Core/Book.swift */; };
+		C5B0C0B58744C91A82C5B697 /* Readle/Views/ParagraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4261E161631BCCE8247D0933 /* Readle/Views/ParagraphView.swift */; };
+		CC06D65F14C0861AFDCB48FA /* Readle/Vendor/libmobi/index.c in Sources */ = {isa = PBXBuildFile; fileRef = 17423DAC25EEF260F5BB8CC3 /* Readle/Vendor/libmobi/index.c */; };
+		CFA8680601EC770620A7D61B /* Readle/Vendor/libmobi/parse_rawml.c in Sources */ = {isa = PBXBuildFile; fileRef = C58AAC8E31716D0B5C164FB5 /* Readle/Vendor/libmobi/parse_rawml.c */; };
+		D2074E73E8740EA0C7D445A5 /* ReadleShare/ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F57CCB35F5E964F0757A9C /* ReadleShare/ShareViewController.swift */; };
+		DCA4C68A4B68F0D67A0C18D4 /* Readle/Views/Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243D9613B8F4A75C6BF28257 /* Readle/Views/Palette.swift */; };
+		DCD42E4260CB4683ADA5FF02 /* Readle/Views/MembershipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B749423FA8B456DB76B3733 /* Readle/Views/MembershipView.swift */; };
+		DD133F3429476EA588306AD7 /* Readle/Vendor/libmobi/structure.c in Sources */ = {isa = PBXBuildFile; fileRef = 0468BC8874AE31F09BF01F26 /* Readle/Vendor/libmobi/structure.c */; };
+		DD49040DE6BE4E959CAC89A3 /* Readle/Views/PaywallMoon.metal in Sources */ = {isa = PBXBuildFile; fileRef = D38E25A20ED0491FBA357980 /* Readle/Views/PaywallMoon.metal */; };
+		FE27BB54442BDE017FA957D6 /* Readle/Vendor/libmobi/read.c in Sources */ = {isa = PBXBuildFile; fileRef = BD7616C8D43F8285484BF6FD /* Readle/Vendor/libmobi/read.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C79C3E4FFACCEA2AC84AC2E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E8A3AD980EC179856012B7E;
+			remoteInfo = Readle;
+		};
+		D7E8BAAA8F512BF967E43218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3763C5AAE0D75ECF4C4ECD04;
+			remoteInfo = ReadleShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5BD0054AA8C6B838D46D596C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1704147B407E1F1178535898 /* ReadleShare.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0468BC8874AE31F09BF01F26 /* Readle/Vendor/libmobi/structure.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Readle/Vendor/libmobi/structure.c; sourceTree = "<group>"; };
+		130E7230863C73D3D46E0C04 /* Readle/Vendor/libmobi/compression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Readle/Vendor/libmobi/compression.h; sourceTree = "<group>"; };
+		17423DAC25EEF260F5BB8CC3 /* Readle/Vendor/libmobi/index.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Readle/Vendor/libmobi/index.c; sourceTree = "<group>"; };
+		1EE547FB48B2937C67BDC8D0 /* Readle/Core/LibraryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readle/Core/LibraryStore.swift; sourceTree = "<group>"; };
+		2272FB527954F9E661F4BAB6 /* Readle/Vendor/libmobi/parse_rawml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Readle/Vendor/libmobi/parse_rawml.h; sourceTree = "<group>"; };
+		242D98B27A45A7A12D5E1FE7 /* Readle/Readle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Readle/Readle.entitlements; sourceTree = "<group>"; };
+		243D9613B8F4A75C6BF28257 /* Readle/Views/Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readle/Views/Palette.swift; sourceTree = "<group>"; };
+		250DD4D224D7F99BD155A99F /* Readle/Vendor/libmobi/config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Readle/Vendor/libmobi/config.h; sourceTree = "<group>"; };
+		25D032672E79325F0637C8D4 /* Readle/Vendor/libmobi/util.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Readle/Vendor/libmobi/util.c; sourceTree = "<group>"; };
+		357941C4676495C90CDBA83A /* Readle/Vendor/libmobi/README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readle/Vendor/libmobi/README.md; sourceTree = "<group>"; };
+		3FB39FE1BFEB511FCB084939 /* Readle/Vendor/libmobi/memory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Readle/Vendor/libmobi/memory.h; sourceTree = "<group>"; };
+		4261E161631BCCE8247D0933 /* Readle/Views/ParagraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readle/Views/ParagraphView.swift; sourceTree = "<group>"; };
+		437CF36F8C7D6822A2580AF0 /* Readle/Vendor/libmobi/write.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Readle/Vendor/libmobi/write.c; sourceTree = "<group>"; };
+		469AF8D0D7B0382D91064051 /* Readle/Vendor/libmobi/opf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Readle/Vendor/libmobi/opf.h; sourceTree = "<group>"; };
+		49C4FF210B41277A3A5CCBA8 /* Readle/Vendor/libmobi/read.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Readle/Vendor/libmobi/read.h; sourceTree = "<group>"; };
+		50FE37D12B8B3DA004D89A64 /* Readle/Core/MOBIImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readle/Core/MOBIImporter.swift; sourceTree = "<group>"; };
+		57FAE944672EAD414E13ACC7 /* Readle/Vendor/libmobi/debug.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Readle/Vendor/libmobi/debug.c; sourceTree = "<group>"; };
+		5D9CA98599AF4270B48E7281 /* Readle/Core/TranslationAllowance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readle/Core/TranslationAllowance.swift; sourceTree = "<group>"; };
+		5E1F3D2A9B7C4E6F8A0B1C2D /* Readle/Views/Shelf3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readle/Views/Shelf3DView.swift; sourceTree = "<group>"; };
+		6A2226A5819833D5A1E859CB /* Readle/Vendor/libmobi/memory.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Readle/Vendor/libmobi/memory.c; sourceTree = "<group>"; };
+		719FC11620DDA8871ADD59CA /* ReadleShare/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ReadleShare/Info.plist; sourceTree = "<group>"; };
+		77F57CCB35F5E964F0757A9C /* ReadleShare/ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadleShare/ShareViewController.swift; sourceTree = "<group>"; };
+		7A3C5E1F2B4D6A8C0E1F3A5B /* Readle/Views/BookEntrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readle/Views/BookEntrance.swift; sourceTree = "<group>"; };
+		7A5ABC977D0E2944CF4AABC3 /* Readle/Resources/PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Readle/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		7D1043473D55BFA90E8530D3 /* Readle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Readle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D28AB0AB8E8FB98D69E8DF2 /* Readle/Views/LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readle/Views/LibraryView.swift; sourceTree = "<group>"; };
+		8B836F5BCCDDB0D2452A509C /* Readle/Vendor/libmobi/buffer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Readle/Vendor/libmobi/buffer.c; sourceTree = "<group>"; };
+		98DCF36E21F8480288910123 /* Readle-CN.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Readle-CN.storekit"; sourceTree = "<group>"; };
+		99B6C49A11F9F5A6F875759C /* Readle/Vendor/libmobi/index.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Readle/Vendor/libmobi/index.h; sourceTree = "<group>"; };
+		9A2A2F7B530E9017D018E9E6 /* Readle/Core/BookRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readle/Core/BookRepository.swift; sourceTree = "<group>"; };
+		9B749423FA8B456DB76B3733 /* Readle/Views/MembershipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readle/Views/MembershipView.swift; sourceTree = "<group>"; };
+		9B7BED31F6F48AD5D908B2BC /* ReadleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = ReadleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D96596D8E13DD944A1D8099 /* Readle/Vendor/libmobi/structure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Readle/Vendor/libmobi/structure.h; sourceTree = "<group>"; };
+		9ED67C1A23A66E94EE251964 /* Readle/Core/TranslationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readle/Core/TranslationService.swift; sourceTree = "<group>"; };
+		A2F72309EA90EED0028E4425 /* Readle/Vendor/libmobi/COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readle/Vendor/libmobi/COPYING; sourceTree = "<group>"; };
+		A7E1C0DE5EED0000000000A1 /* Readle/Resources/KokoroHeart */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Readle/Resources/KokoroHeart; sourceTree = "<group>"; };
+		A7E1C0DE5EED0000000000B9 /* Readle/Resources/QwenTranslation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Readle/Resources/QwenTranslation; sourceTree = "<group>"; };
+		A7E1C0DE5EED0000000001A1 /* Readle/Views/AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readle/Views/AccountView.swift; sourceTree = "<group>"; };
+		A7E1C0DE5EED0000000001A2 /* Readle/Core/ReadingStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readle/Core/ReadingStats.swift; sourceTree = "<group>"; };
+		AA9A04F62121F95B95997BDD /* Readle/Vendor/libmobi/util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Readle/Vendor/libmobi/util.h; sourceTree = "<group>"; };
+		AB86D0C90FC6C492A782005F /* Readle/Vendor/libmobi/buffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Readle/Vendor/libmobi/buffer.h; sourceTree = "<group>"; };
+		AC96137E5D768A0D690AB14E /* Readle/Views/ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readle/Views/ReaderView.swift; sourceTree = "<group>"; };
+		ACD7F0A361F09CDB4B74E28C /* Readle/Core/ReadAloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readle/Core/ReadAloud.swift; sourceTree = "<group>"; };
+		B0BD019E4381B5D50A479479 /* Readle/Vendor/libmobi/mobi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Readle/Vendor/libmobi/mobi.h; sourceTree = "<group>"; };
+		B32950099A24F6E46125E26B /* Readle/Resources/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Readle/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		B5A752BABED0BE4DD268E0DB /* Readle/Core/BookImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readle/Core/BookImporter.swift; sourceTree = "<group>"; };
+		B61AA01EB57E27D574DB5266 /* Readle/Vendor/libmobi/meta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Readle/Vendor/libmobi/meta.h; sourceTree = "<group>"; };
+		B70E82C9B4279D28D79FB8E5 /* ReadleShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; path = ReadleShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8519A6D519695141656B417 /* Readle/Vendor/libmobi/write.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Readle/Vendor/libmobi/write.h; sourceTree = "<group>"; };
+		BD7616C8D43F8285484BF6FD /* Readle/Vendor/libmobi/read.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Readle/Vendor/libmobi/read.c; sourceTree = "<group>"; };
+		BDCDA7504A34DB93259BC8EE /* Readle/Vendor/libmobi/debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Readle/Vendor/libmobi/debug.h; sourceTree = "<group>"; };
+		BE2892971A84122A94A9791B /* Tests/ReadleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/ReadleUITests.swift; sourceTree = "<group>"; };
+		C189F940365CEA284835B947 /* Readle/Vendor/libmobi/compression.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Readle/Vendor/libmobi/compression.c; sourceTree = "<group>"; };
+		C58AAC8E31716D0B5C164FB5 /* Readle/Vendor/libmobi/parse_rawml.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Readle/Vendor/libmobi/parse_rawml.c; sourceTree = "<group>"; };
+		CD11B9154FC498D1EAD93689 /* Readle/Vendor/libmobi/meta.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Readle/Vendor/libmobi/meta.c; sourceTree = "<group>"; };
+		D08208AA945C326263A80CA0 /* Readle/Core/Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readle/Core/Book.swift; sourceTree = "<group>"; };
+		D38E25A20ED0491FBA357980 /* Readle/Views/PaywallMoon.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Readle/Views/PaywallMoon.metal; sourceTree = "<group>"; };
+		D904E35E381443E9B7ABC5BD /* Readle/Core/ZIPArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readle/Core/ZIPArchive.swift; sourceTree = "<group>"; };
+		DD6F84E02525BF71249F445F /* Readle/Views/ReaderScrollObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readle/Views/ReaderScrollObserver.swift; sourceTree = "<group>"; };
+		DD79027BDDE4066B8AB94AA0 /* ReadleShare/ReadleShare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReadleShare/ReadleShare.entitlements; sourceTree = "<group>"; };
+		E0E9B3972ABC4D11AC433EF2 /* Readle-US.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Readle-US.storekit"; sourceTree = "<group>"; };
+		E8395603E0F78ACBB8C86E79 /* Readle/ReadleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readle/ReadleApp.swift; sourceTree = "<group>"; };
+		EC206909CC5779E69E77E742 /* Readle/Resources/SpeechNotices.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readle/Resources/SpeechNotices.txt; sourceTree = "<group>"; };
+		F17EDCB42E97305868C7238D /* Readle/Core/MOBIBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Readle/Core/MOBIBridge.h; sourceTree = "<group>"; };
+		F2CD9C4659204D1F9ABD8B6A /* Readle/Core/Membership.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readle/Core/Membership.swift; sourceTree = "<group>"; };
+		F624719A468D93E729C61643 /* Readle/Core/SharedImportInbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readle/Core/SharedImportInbox.swift; sourceTree = "<group>"; };
+		F6F62FAAB79A62A0ACD60059 /* Readle/Core/MOBIBridge.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Readle/Core/MOBIBridge.c; sourceTree = "<group>"; };
+		F9D4616D4FD56E9DE72758FC /* Readle/Vendor/libmobi/COPYING.GPL */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readle/Vendor/libmobi/COPYING.GPL; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39F831DAFE5A2F37503C83B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7561BFB015D8F536760CB671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7435EFF2C3777679C2280923 /* ReadleSpeechRuntime in Frameworks */,
+				A7E1C0DE5EED0000000000B6 /* MLXLLM in Frameworks */,
+				A7E1C0DE5EED0000000000B7 /* MLXLMCommon in Frameworks */,
+				A7E1C0DE5EED0000000000B8 /* Tokenizers in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A244660ADC9BB08BB6E01AC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B28B7AF69320201D1CF206EB = {
+			isa = PBXGroup;
+			children = (
+				7A3C5E1F2B4D6A8C0E1F3A5B /* Readle/Views/BookEntrance.swift */,
+				5E1F3D2A9B7C4E6F8A0B1C2D /* Readle/Views/Shelf3DView.swift */,
+				EC206909CC5779E69E77E742 /* Readle/Resources/SpeechNotices.txt */,
+				ACD7F0A361F09CDB4B74E28C /* Readle/Core/ReadAloud.swift */,
+				DD6F84E02525BF71249F445F /* Readle/Views/ReaderScrollObserver.swift */,
+				F9D4616D4FD56E9DE72758FC /* Readle/Vendor/libmobi/COPYING.GPL */,
+				357941C4676495C90CDBA83A /* Readle/Vendor/libmobi/README.md */,
+				50FE37D12B8B3DA004D89A64 /* Readle/Core/MOBIImporter.swift */,
+				F6F62FAAB79A62A0ACD60059 /* Readle/Core/MOBIBridge.c */,
+				F17EDCB42E97305868C7238D /* Readle/Core/MOBIBridge.h */,
+				A2F72309EA90EED0028E4425 /* Readle/Vendor/libmobi/COPYING */,
+				8B836F5BCCDDB0D2452A509C /* Readle/Vendor/libmobi/buffer.c */,
+				AB86D0C90FC6C492A782005F /* Readle/Vendor/libmobi/buffer.h */,
+				C189F940365CEA284835B947 /* Readle/Vendor/libmobi/compression.c */,
+				130E7230863C73D3D46E0C04 /* Readle/Vendor/libmobi/compression.h */,
+				250DD4D224D7F99BD155A99F /* Readle/Vendor/libmobi/config.h */,
+				57FAE944672EAD414E13ACC7 /* Readle/Vendor/libmobi/debug.c */,
+				BDCDA7504A34DB93259BC8EE /* Readle/Vendor/libmobi/debug.h */,
+				17423DAC25EEF260F5BB8CC3 /* Readle/Vendor/libmobi/index.c */,
+				99B6C49A11F9F5A6F875759C /* Readle/Vendor/libmobi/index.h */,
+				6A2226A5819833D5A1E859CB /* Readle/Vendor/libmobi/memory.c */,
+				3FB39FE1BFEB511FCB084939 /* Readle/Vendor/libmobi/memory.h */,
+				CD11B9154FC498D1EAD93689 /* Readle/Vendor/libmobi/meta.c */,
+				B61AA01EB57E27D574DB5266 /* Readle/Vendor/libmobi/meta.h */,
+				B0BD019E4381B5D50A479479 /* Readle/Vendor/libmobi/mobi.h */,
+				469AF8D0D7B0382D91064051 /* Readle/Vendor/libmobi/opf.h */,
+				C58AAC8E31716D0B5C164FB5 /* Readle/Vendor/libmobi/parse_rawml.c */,
+				2272FB527954F9E661F4BAB6 /* Readle/Vendor/libmobi/parse_rawml.h */,
+				BD7616C8D43F8285484BF6FD /* Readle/Vendor/libmobi/read.c */,
+				49C4FF210B41277A3A5CCBA8 /* Readle/Vendor/libmobi/read.h */,
+				0468BC8874AE31F09BF01F26 /* Readle/Vendor/libmobi/structure.c */,
+				9D96596D8E13DD944A1D8099 /* Readle/Vendor/libmobi/structure.h */,
+				25D032672E79325F0637C8D4 /* Readle/Vendor/libmobi/util.c */,
+				AA9A04F62121F95B95997BDD /* Readle/Vendor/libmobi/util.h */,
+				437CF36F8C7D6822A2580AF0 /* Readle/Vendor/libmobi/write.c */,
+				B8519A6D519695141656B417 /* Readle/Vendor/libmobi/write.h */,
+				F624719A468D93E729C61643 /* Readle/Core/SharedImportInbox.swift */,
+				77F57CCB35F5E964F0757A9C /* ReadleShare/ShareViewController.swift */,
+				719FC11620DDA8871ADD59CA /* ReadleShare/Info.plist */,
+				DD79027BDDE4066B8AB94AA0 /* ReadleShare/ReadleShare.entitlements */,
+				242D98B27A45A7A12D5E1FE7 /* Readle/Readle.entitlements */,
+				BE2892971A84122A94A9791B /* Tests/ReadleUITests.swift */,
+				D08208AA945C326263A80CA0 /* Readle/Core/Book.swift */,
+				B5A752BABED0BE4DD268E0DB /* Readle/Core/BookImporter.swift */,
+				9A2A2F7B530E9017D018E9E6 /* Readle/Core/BookRepository.swift */,
+				1EE547FB48B2937C67BDC8D0 /* Readle/Core/LibraryStore.swift */,
+				F2CD9C4659204D1F9ABD8B6A /* Readle/Core/Membership.swift */,
+				5D9CA98599AF4270B48E7281 /* Readle/Core/TranslationAllowance.swift */,
+				D38E25A20ED0491FBA357980 /* Readle/Views/PaywallMoon.metal */,
+				9B749423FA8B456DB76B3733 /* Readle/Views/MembershipView.swift */,
+				A7E1C0DE5EED0000000001A2 /* Readle/Core/ReadingStats.swift */,
+				A7E1C0DE5EED0000000001A1 /* Readle/Views/AccountView.swift */,
+				98DCF36E21F8480288910123 /* Readle-CN.storekit */,
+				E0E9B3972ABC4D11AC433EF2 /* Readle-US.storekit */,
+				9ED67C1A23A66E94EE251964 /* Readle/Core/TranslationService.swift */,
+				D904E35E381443E9B7ABC5BD /* Readle/Core/ZIPArchive.swift */,
+				E8395603E0F78ACBB8C86E79 /* Readle/ReadleApp.swift */,
+				7D28AB0AB8E8FB98D69E8DF2 /* Readle/Views/LibraryView.swift */,
+				243D9613B8F4A75C6BF28257 /* Readle/Views/Palette.swift */,
+				4261E161631BCCE8247D0933 /* Readle/Views/ParagraphView.swift */,
+				AC96137E5D768A0D690AB14E /* Readle/Views/ReaderView.swift */,
+				B32950099A24F6E46125E26B /* Readle/Resources/Assets.xcassets */,
+				A7E1C0DE5EED0000000000A1 /* Readle/Resources/KokoroHeart */,
+				A7E1C0DE5EED0000000000B9 /* Readle/Resources/QwenTranslation */,
+				7A5ABC977D0E2944CF4AABC3 /* Readle/Resources/PrivacyInfo.xcprivacy */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B70E82C9B4279D28D79FB8E5 /* ReadleShare.appex */,
+				7D1043473D55BFA90E8530D3 /* Readle.app */,
+				9B7BED31F6F48AD5D908B2BC /* ReadleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E /* Readle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 651ECA092BE81738918D8CDB /* Build configuration list for PBXNativeTarget "Readle" */;
+			buildPhases = (
+				BCE16DD0260827ECF338C787 /* Sources */,
+				7561BFB015D8F536760CB671 /* Frameworks */,
+				0189424A5A60FED329FA868E /* Resources */,
+				5BD0054AA8C6B838D46D596C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				089CF13DD81F8DE5FB98311F /* PBXTargetDependency */,
+			);
+			name = Readle;
+			packageProductDependencies = (
+				B755CD4E951288120F882562 /* ReadleSpeechRuntime */,
+				A7E1C0DE5EED0000000000B3 /* MLXLLM */,
+				A7E1C0DE5EED0000000000B4 /* MLXLMCommon */,
+				A7E1C0DE5EED0000000000B5 /* Tokenizers */,
+			);
+			productName = Readle;
+			productReference = 7D1043473D55BFA90E8530D3 /* Readle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3763C5AAE0D75ECF4C4ECD04 /* ReadleShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F3E011C97F8D9CD5898FE6 /* Build configuration list for PBXNativeTarget "ReadleShare" */;
+			buildPhases = (
+				6CD0238A814E0323203E9496 /* Sources */,
+				A244660ADC9BB08BB6E01AC6 /* Frameworks */,
+				D03C7E2004019018A1D964ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReadleShare;
+			productName = ReadleShare;
+			productReference = B70E82C9B4279D28D79FB8E5 /* ReadleShare.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		794AAC98ACE6EB716B86C3A5 /* ReadleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1CF8FA1FF6B3602810CBB10 /* Build configuration list for PBXNativeTarget "ReadleUITests" */;
+			buildPhases = (
+				F9ACDEB529017EFC18F5E60A /* Sources */,
+				39F831DAFE5A2F37503C83B2 /* Frameworks */,
+				BCBACCC51111000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE41E3343258A6882539145A /* PBXTargetDependency */,
+			);
+			name = ReadleUITests;
+			productName = ReadleUITests;
+			productReference = 9B7BED31F6F48AD5D908B2BC /* ReadleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600;
+			};
+			buildConfigurationList = F8C70E4123C9AE82C42562CC /* Build configuration list for PBXProject "Readle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"zh-Hans",
+				en,
+				Base,
+			);
+			mainGroup = B28B7AF69320201D1CF206EB;
+			packageReferences = (
+				671999B5FAC5DB14274C8C05 /* XCLocalSwiftPackageReference "ReadleSpeechRuntime" */,
+				A7E1C0DE5EED0000000000B1 /* XCRemoteSwiftPackageReference "mlx-swift-lm" */,
+				A7E1C0DE5EED0000000000B2 /* XCRemoteSwiftPackageReference "swift-transformers" */,
+			);
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3763C5AAE0D75ECF4C4ECD04 /* ReadleShare */,
+				0E8A3AD980EC179856012B7E /* Readle */,
+				794AAC98ACE6EB716B86C3A5 /* ReadleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0189424A5A60FED329FA868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90987B04F7489888A0526101 /* Readle/Resources/SpeechNotices.txt in Resources */,
+				81AD82154B362FD4BA6D2F1C /* Readle/Resources/Assets.xcassets in Resources */,
+				0DAE492993C2810656FDE591 /* Readle/Resources/PrivacyInfo.xcprivacy in Resources */,
+				A7E1C0DE5EED0000000000A2 /* Readle/Resources/KokoroHeart in Resources */,
+				A7E1C0DE5EED0000000000BA /* Readle/Resources/QwenTranslation in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCBACCC51111000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCBACCC51111000000000001 /* Readle-CN.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03C7E2004019018A1D964ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4986E3A03569D4819137AAF4 /* Readle/Resources/PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CD0238A814E0323203E9496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF75CF6ECD880DF70F1AF18 /* Readle/Core/SharedImportInbox.swift in Sources */,
+				D2074E73E8740EA0C7D445A5 /* ReadleShare/ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE16DD0260827ECF338C787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4D6F203C5E7B9D1F204B6C /* Readle/Views/BookEntrance.swift in Sources */,
+				6F2A4E3B0C8D5F7A9B1C2D3E /* Readle/Views/Shelf3DView.swift in Sources */,
+				291A58267E5664BD6647B660 /* Readle/Core/ReadAloud.swift in Sources */,
+				97D64BC1F19357340C97FF97 /* Readle/Views/ReaderScrollObserver.swift in Sources */,
+				43DAFCB085458324818521F2 /* Readle/Core/MOBIImporter.swift in Sources */,
+				3D0E7CEDCA9EE63F33B3A547 /* Readle/Core/MOBIBridge.c in Sources */,
+				6D4DF20BF9CB5DE27B15EABA /* Readle/Vendor/libmobi/buffer.c in Sources */,
+				09480201891116653B686B6A /* Readle/Vendor/libmobi/compression.c in Sources */,
+				648E9DE8389DDA3F7FE6C408 /* Readle/Vendor/libmobi/debug.c in Sources */,
+				CC06D65F14C0861AFDCB48FA /* Readle/Vendor/libmobi/index.c in Sources */,
+				91E9A5C5203019DBE7082260 /* Readle/Vendor/libmobi/memory.c in Sources */,
+				B40BDAA83812CA2591EA4999 /* Readle/Vendor/libmobi/meta.c in Sources */,
+				CFA8680601EC770620A7D61B /* Readle/Vendor/libmobi/parse_rawml.c in Sources */,
+				FE27BB54442BDE017FA957D6 /* Readle/Vendor/libmobi/read.c in Sources */,
+				DD133F3429476EA588306AD7 /* Readle/Vendor/libmobi/structure.c in Sources */,
+				840FD1CFC8988A727944C410 /* Readle/Vendor/libmobi/util.c in Sources */,
+				3F4A13A587D1E22EF76A235F /* Readle/Vendor/libmobi/write.c in Sources */,
+				7C3AE566D4329B9DC3C84781 /* Readle/Core/SharedImportInbox.swift in Sources */,
+				C0020AD5DC172E92F2AF7172 /* Readle/Core/Book.swift in Sources */,
+				734D3BB485C609EBEA131EFE /* Readle/Core/BookImporter.swift in Sources */,
+				123349864A923194A3E8B6AC /* Readle/Core/BookRepository.swift in Sources */,
+				7F5CC78B94C1C3CD22C453C3 /* Readle/Core/LibraryStore.swift in Sources */,
+				7E1EBC40901F41C2B88F1F29 /* Readle/Core/Membership.swift in Sources */,
+				1BD0D41847324EABBD5A475D /* Readle/Core/TranslationAllowance.swift in Sources */,
+				DD49040DE6BE4E959CAC89A3 /* Readle/Views/PaywallMoon.metal in Sources */,
+				DCD42E4260CB4683ADA5FF02 /* Readle/Views/MembershipView.swift in Sources */,
+				A7E1C0DE5EED0000000001B2 /* Readle/Core/ReadingStats.swift in Sources */,
+				A7E1C0DE5EED0000000001B1 /* Readle/Views/AccountView.swift in Sources */,
+				40049E5B67B085F70942AA0D /* Readle/Core/TranslationService.swift in Sources */,
+				998487A36A56A793146ED72B /* Readle/Core/ZIPArchive.swift in Sources */,
+				1A56DFCACC47C167FB8760D1 /* Readle/ReadleApp.swift in Sources */,
+				6B5A06DE844D329B3E099EA1 /* Readle/Views/LibraryView.swift in Sources */,
+				DCA4C68A4B68F0D67A0C18D4 /* Readle/Views/Palette.swift in Sources */,
+				C5B0C0B58744C91A82C5B697 /* Readle/Views/ParagraphView.swift in Sources */,
+				5F9199B3FE04B3F4439B01F4 /* Readle/Views/ReaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9ACDEB529017EFC18F5E60A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441BE0495D5DF14C1C120247 /* Tests/ReadleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		089CF13DD81F8DE5FB98311F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3763C5AAE0D75ECF4C4ECD04 /* ReadleShare */;
+			targetProxy = D7E8BAAA8F512BF967E43218 /* PBXContainerItemProxy */;
+		};
+		FE41E3343258A6882539145A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E8A3AD980EC179856012B7E /* Readle */;
+			targetProxy = C79C3E4FFACCEA2AC84AC2E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D8C2B4F542FF57BC4D485A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ReadleShare/ReadleShare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = V7439G9SY8;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INFOPLIST_FILE = ReadleShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.readle.share;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DE0B96147C56CE7EB664EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = V7439G9SY8;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.readle.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Readle;
+			};
+			name = Release;
+		};
+		639A7CA24D39909E713B47F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				CODE_SIGN_ENTITLEMENTS = Readle/Readle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = V7439G9SY8;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = Readle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lz",
+					"-lxml2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.readle;
+				PRODUCT_NAME = Readle;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Readle/Readle-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7082CC0B6FC1282FCEABD07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				CODE_SIGN_ENTITLEMENTS = Readle/Readle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = V7439G9SY8;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = Readle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lz",
+					"-lxml2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.readle;
+				PRODUCT_NAME = Readle;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Readle/Readle-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89E1FD6268CC0F221A2BE178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		BAC435B037607B50C4729BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = V7439G9SY8;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.readle.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Readle;
+			};
+			name = Debug;
+		};
+		BEF7C00F2B758A84B5C079A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ReadleShare/ReadleShare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = V7439G9SY8;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INFOPLIST_FILE = ReadleShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.readle.share;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6DE6C99132752C914FEF632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54F3E011C97F8D9CD5898FE6 /* Build configuration list for PBXNativeTarget "ReadleShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D8C2B4F542FF57BC4D485A4 /* Debug */,
+				BEF7C00F2B758A84B5C079A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		651ECA092BE81738918D8CDB /* Build configuration list for PBXNativeTarget "Readle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7082CC0B6FC1282FCEABD07A /* Debug */,
+				639A7CA24D39909E713B47F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1CF8FA1FF6B3602810CBB10 /* Build configuration list for PBXNativeTarget "ReadleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAC435B037607B50C4729BF1 /* Debug */,
+				5DE0B96147C56CE7EB664EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C70E4123C9AE82C42562CC /* Build configuration list for PBXProject "Readle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E1FD6268CC0F221A2BE178 /* Debug */,
+				E6DE6C99132752C914FEF632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		671999B5FAC5DB14274C8C05 /* XCLocalSwiftPackageReference "ReadleSpeechRuntime" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ReadleSpeechRuntime;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A7E1C0DE5EED0000000000B1 /* XCRemoteSwiftPackageReference "mlx-swift-lm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ml-explore/mlx-swift-lm.git";
+			requirement = {
+				kind = exactVersion;
+				version = 3.31.4;
+			};
+		};
+		A7E1C0DE5EED0000000000B2 /* XCRemoteSwiftPackageReference "swift-transformers" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huggingface/swift-transformers.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A7E1C0DE5EED0000000000B3 /* MLXLLM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7E1C0DE5EED0000000000B1 /* XCRemoteSwiftPackageReference "mlx-swift-lm" */;
+			productName = MLXLLM;
+		};
+		A7E1C0DE5EED0000000000B4 /* MLXLMCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7E1C0DE5EED0000000000B1 /* XCRemoteSwiftPackageReference "mlx-swift-lm" */;
+			productName = MLXLMCommon;
+		};
+		A7E1C0DE5EED0000000000B5 /* Tokenizers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7E1C0DE5EED0000000000B2 /* XCRemoteSwiftPackageReference "swift-transformers" */;
+			productName = Tokenizers;
+		};
+		B755CD4E951288120F882562 /* ReadleSpeechRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ReadleSpeechRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

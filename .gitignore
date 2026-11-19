@@ -1,0 +1,11 @@
+.build/
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+/avatar-placeholder-preview.png
+/Readle/Resources/KokoroHeart/
+/Readle/Resources/QwenTranslation/*
+!/Readle/Resources/QwenTranslation/LICENSE.txt
+!/Readle/Resources/QwenTranslation/NOTICE.txt
