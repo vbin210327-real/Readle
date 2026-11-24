@@ -1,0 +1,17 @@
+Readle's word dictionary, words.tsv, combines and adapts:
+
+- Wiktionary (https://en.wiktionary.org), by its contributors, as extracted by kaikki.org / wiktextract
+  (Tatu Ylonen). Creative Commons Attribution-ShareAlike 4.0.
+- CC-CEDICT (https://cc-cedict.org), published by MDBG and its contributors; CEDICT copyright 1997, 1998
+  Paul Andrew Denisowski. Creative Commons Attribution-ShareAlike 4.0.
+- Chinese Open Wordnet 1.1 (https://bond-lab.github.io/cow), copyright 2013-2026 Francis Bond, Shan Wang
+  and Luis Morgado da Costa.
+- WordNet 3.0, copyright 2006 by Princeton University.
+- Wikidata names (https://www.wikidata.org). CC0.
+
+Changes: only English words with Chinese meanings were kept, traditional characters were turned into
+simplified ones, the sources were merged and shortened, and some small words were written anew
+(scripts/build-word-dictionary.py).
+
+words.tsv is offered under the Creative Commons Attribution-ShareAlike 4.0 International licence. You may
+copy, share and adapt it under that licence: https://github.com/vbin210327-real/Readle
